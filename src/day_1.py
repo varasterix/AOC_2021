@@ -33,10 +33,8 @@ if __name__ == "__main__":
 
     # Part 1
     print("===Part 1===")
-    # compute_diff_last([199, 200, 208, 210, 200, 207, 240, 269, 260, 263])
     compute_diff_last(inputs)
 
     # Part 2
     print("===Part 2===")
-    # compute_sliding_diff([199, 200, 208, 210, 200, 207, 240, 269, 260, 263])
     compute_sliding_diff(inputs)
