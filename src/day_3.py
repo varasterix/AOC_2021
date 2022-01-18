@@ -2,7 +2,7 @@ def inputs_handler(input_file):
     inp = []
     with open(input_file) as file:
         for item in file.readlines():
-            inp.append(item[:-1])
+            inp.append(item.split('\n')[0])
     return inp
 
 
@@ -117,4 +117,3 @@ if __name__ == "__main__":
     # Part 2
     print("===Part 2===")
     print(compute_life_support_rating(inputs))
-

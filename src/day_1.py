@@ -2,7 +2,7 @@ def inputs_handler(input_file):
     inp = []
     with open(input_file) as file:
         for item in file.readlines():
-            inp.append(int(item[:-1]))
+            inp.append(int(item.split('\n')[0]))
     return inp
 
 
